@@ -1,0 +1,21 @@
+# Keep LF in the repo (matches portfolio Biome lineEnding: lf).
+* text=auto eol=lf
+
+# Binary media — no EOL normalization.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.mp3 binary
+*.m4a binary
+*.wav binary
+*.flac binary
+*.opus binary
+*.ogg binary
+*.aac binary
+*.mp4 binary
+*.webm binary
+*.woff binary
+*.woff2 binary

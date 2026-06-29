@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "demo-assets catalog",
+  "type": "object",
+  "required": ["version", "repository", "baseUrl", "packages"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "repository": {
+      "type": "string",
+      "pattern": "^[\\w.-]+/[\\w.-]+$"
+    },
+    "baseUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "packages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["description"],
+              "properties": {
+                "description": { "type": "string", "minLength": 1 },
+                "license": { "type": "string" },
+                "pending": { "const": true }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "required": ["description", "formats"],
+              "properties": {
+                "description": { "type": "string", "minLength": 1 },
+                "dir": { "type": "string", "minLength": 1 },
+                "formats": {
+                  "type": "array",
+                  "items": { "type": "string", "minLength": 1 },
+                  "minItems": 1
+                },
+                "license": { "type": "string" },
+                "pending": { "const": true }
+              },
+              "additionalProperties": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

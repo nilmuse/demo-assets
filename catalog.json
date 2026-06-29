@@ -1,0 +1,46 @@
+{
+  "$schema": "./catalog.schema.json",
+  "version": "1.0.0",
+  "repository": "ux-ui-pro/demo-assets",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.0.0",
+  "packages": {
+    "cascading-reel": {
+      "reel.svg": {
+        "description": "Sprite sheet for cascading-reel demo"
+      }
+    },
+    "reel-deal": {
+      "reel.svg": {
+        "description": "Sprite sheet for reel-deal demo"
+      }
+    },
+    "scratch-reveal": {
+      "scratch-reveal-background.svg": {
+        "description": "Background under the scratch mask"
+      },
+      "loader.svg": {
+        "description": "Loading indicator for scratch-reveal demo"
+      }
+    },
+    "zero-hour": {
+      "timer-digits.svg": {
+        "description": "SVG sprite for countdown digits"
+      },
+      "timer-separator.svg": {
+        "description": "Colon separator for zero-hour timer"
+      }
+    },
+    "iconly": {
+      "sprite.svg": {
+        "description": "Icon sprite for iconly demo"
+      }
+    },
+    "clicktone": {
+      "cartoon": {
+        "description": "Demo sound for format-fallback testing (CodePen, README)",
+        "dir": "audio",
+        "formats": ["mp3", "opus", "wav", "flac", "m4a"]
+      }
+    }
+  }
+}
