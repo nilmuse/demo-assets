@@ -1,8 +1,4 @@
 #!/usr/bin/env node
-/**
- * Verifies that every catalog entry maps to an on-disk file (unless marked pending).
- * Run: node scripts/verify-catalog.mjs
- */
 
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
