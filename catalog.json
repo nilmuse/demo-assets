@@ -1,8 +1,8 @@
 {
   "$schema": "./catalog.schema.json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "ux-ui-pro/demo-assets",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.0.0",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.1.0",
   "packages": {
     "cascading-reel": {
       "reel.svg": {
@@ -15,18 +15,26 @@
       }
     },
     "scratch-reveal": {
-      "scratch-reveal-background.svg": {
+      "background.svg": {
         "description": "Background under the scratch mask"
       },
-      "loader.svg": {
-        "description": "Loading indicator for scratch-reveal demo"
+      "brush.png": {
+        "description": "Brush texture for scratch-reveal demo"
+      },
+      "mask.webp": {
+        "description": "Mask image for scratch-reveal demo"
+      }
+    },
+    "smoke-layer": {
+      "fog-texture.png": {
+        "description": "Fog particle texture for smoke-layer demo"
       }
     },
     "zero-hour": {
-      "timer-digits.svg": {
+      "digits.svg": {
         "description": "SVG sprite for countdown digits"
       },
-      "timer-separator.svg": {
+      "separator.svg": {
         "description": "Colon separator for zero-hour timer"
       }
     },

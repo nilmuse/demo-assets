@@ -4,14 +4,15 @@
 https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@<tag>/packages/<package>/<file>
 ```
 
-Current release tag: **`v1.0.0`**
+Current release tag: **`v1.1.0`**
 
 Examples:
 
 ```
-https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.0.0/packages/zero-hour/timer-digits.svg
-https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.0.0/packages/cascading-reel/reel.svg
-https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.0.0/packages/clicktone/audio/cartoon.mp3
+https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.1.0/packages/zero-hour/digits.svg
+https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.1.0/packages/cascading-reel/reel.svg
+https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.1.0/packages/clicktone/audio/cartoon.mp3
+https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.1.0/packages/smoke-layer/fog-texture.png
 ```
 
 ---
