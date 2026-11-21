@@ -1,8 +1,8 @@
 {
   "$schema": "./catalog.schema.json",
-  "version": "1.1.0",
-  "repository": "ux-ui-pro/demo-assets",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/ux-ui-pro/demo-assets@v1.1.0",
+  "version": "1.1.1",
+  "repository": "nilmuse/demo-assets",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.1",
   "packages": {
     "cascading-reel": {
       "reel.svg": {
