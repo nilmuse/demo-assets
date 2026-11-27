@@ -4,15 +4,15 @@
 https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@<tag>/packages/<package>/<file>
 ```
 
-Current release tag: **`v1.1.1`**
+Current release tag: **`v1.1.2`**
 
 Examples:
 
 ```
-https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.1/packages/zero-hour/digits.svg
-https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.1/packages/cascading-reel/reel.svg
-https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.1/packages/clicktone/audio/cartoon.mp3
-https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.1/packages/smoke-layer/fog-texture.png
+https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.2/packages/zero-hour/digits.svg
+https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.2/packages/cascading-reel/reel.svg
+https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.2/packages/clicktone/audio/cartoon.mp3
+https://cdn.jsdelivr.net/gh/nilmuse/demo-assets@v1.1.2/packages/smoke-layer/fog-texture.png
 ```
 
 ---
